@@ -13,15 +13,15 @@ export const palette = {
   backgroundDate: '#e1f5feeb',
   backgroundActivity: '#e7eefb',
 
-  primaryColor: '#1F93FF',
-  primaryColorDark: '#1976CC',
-  primaryColorDarker: '#135899',
+  primaryColor: '#660099',
+  primaryColorDark: '#660099',
+  primaryColorDarker: '#660099',
   primaryColorLight: '#EBF5FF',
 
-  infoColor: '#077BFF',
-  infoColorDark: '#055FDB',
-  infoColorDarker: '#0346B7',
-  infoColorLight: '#9BD8FF',
+  infoColor: '#660099',
+  infoColorDark: '#660099',
+  infoColorDarker: '#660099',
+  infoColorLight: '#660099',
   infoColorLighter: '#C2E1FF',
 
   secondaryColor: '#5d7592',

@@ -62,12 +62,12 @@ export const actions = {
 export const settingsSlice = createSlice({
   name: 'settings',
   initialState: settingAdapter.getInitialState({
-    baseUrl: 'app.chatwoot.com',
-    installationUrl: 'https://app.chatwoot.com/',
+    baseUrl: 'app.growthlab.com.br',
+    installationUrl: 'https://app.growthlab.com.br/',
     isLocaleSet: false,
     isSettingUrl: false,
     isUpdating: false,
-    localeValue: 'en',
+    localeValue: 'pt_BR',
     notification: {},
     webSocketUrl: 'wss://app.chatwoot.com/cable',
   }),

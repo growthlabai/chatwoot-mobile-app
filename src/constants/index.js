@@ -15,15 +15,15 @@ export const MAXIMUM_FILE_UPLOAD_SIZE = 10;
 export const CONVERSATION_STATUSES = [
   {
     key: 'open',
-    name: 'Open',
+    name: 'Abertos',
   },
   {
     key: 'resolved',
-    name: 'Resolved',
+    name: 'Resolvidos',
   },
   {
     key: 'pending',
-    name: 'Pending',
+    name: 'Pendentes',
   },
   {
     key: 'snoozed',
@@ -31,7 +31,7 @@ export const CONVERSATION_STATUSES = [
   },
   {
     key: 'all',
-    name: 'All',
+    name: 'Todos',
   },
 ];
 export const SORT_TYPES = [
@@ -52,15 +52,15 @@ export const SORT_TYPES = [
 export const ASSIGNEE_TYPES = [
   {
     key: 'mine',
-    name: 'Mine',
+    name: 'Minhas',
   },
   {
     key: 'unassigned',
-    name: 'Unassigned',
+    name: 'Não Atribuídas',
   },
   {
     key: 'all',
-    name: 'All',
+    name: 'Todas',
   },
 ];
 

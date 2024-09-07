@@ -135,8 +135,7 @@ const App = () => {
       return () => {
         subscription.remove();
         unsubscribeNotification();
-      };
-    },
+      };    },
   };
 
   i18n.locale = locale;

@@ -60,7 +60,7 @@ const AvailabilityStatus = ({ status }) => {
       color: colors.successColor,
     },
     {
-      status: 'Busy',
+      status: 'Ocupado',
       key: 'busy',
       color: colors.warningColor,
     },

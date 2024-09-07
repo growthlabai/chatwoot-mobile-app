@@ -10,7 +10,7 @@
     "HOME": "Home",
     "CONVERSATION": "Conversas",
     "NOTIFICATION": "Notifications",
-    "SETTINGS": "Confirgurações"
+    "SETTINGS": "Configurações"
   },
   "CONFIGURE_URL": {
     "ENTER_URL": "Installation URL",
@@ -35,7 +35,7 @@
     "RESET_HERE": "Reset here",
     "NO_ACCOUNT": "Don't have an account?",
     "CREATE_ACCOUNT": "Criar nova conta",
-    "SETTINGS": "Confirgurações",
+    "SETTINGS": "Configurações",
     "CHANGE_LANGUAGE": "Change language",
     "TERMS": "Terms & Conditions",
     "CHANGE_URL": "Change URL"
@@ -123,7 +123,7 @@
     "SNOOZED": "Snoozed"
   },
   "SETTINGS": {
-    "HEADER_TITLE": "Confirgurações",
+    "HEADER_TITLE": "Configurações",
     "SET_AVAILABILITY": "Defina-se como",
     "PREFERENCES": "Preferences",
     "ABOUT": "About",

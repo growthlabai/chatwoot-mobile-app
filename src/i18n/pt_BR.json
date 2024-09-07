@@ -10,7 +10,7 @@
     "HOME": "Principal",
     "CONVERSATION": "Conversas",
     "NOTIFICATION": "Notificações",
-    "SETTINGS": "Confirgurações"
+    "SETTINGS": "Configurações"
   },
   "CONFIGURE_URL": {
     "ENTER_URL": "URL de instalação",
@@ -35,7 +35,7 @@
     "RESET_HERE": "Redefinir aqui",
     "NO_ACCOUNT": "Não possui uma conta?",
     "CREATE_ACCOUNT": "Criar nova conta",
-    "SETTINGS": "Confirgurações",
+    "SETTINGS": "Configurações",
     "CHANGE_LANGUAGE": "Alterar idioma",
     "TERMS": "Termos & Condições",
     "CHANGE_URL": "Alterar URL"
@@ -123,7 +123,7 @@
     "SNOOZED": "Adiado"
   },
   "SETTINGS": {
-    "HEADER_TITLE": "Confirgurações",
+    "HEADER_TITLE": "Configurações",
     "SET_AVAILABILITY": "Defina como",
     "PREFERENCES": "Preferências",
     "ABOUT": "Sobre",

@@ -15,7 +15,7 @@ describe('SettingsHelper', () => {
     });
 
     it('should return the domain from subdomain 1', () => {
-      const url = 'https://app.chatwoot.com';
+      const url = 'https://app.growthlab.com.br';
       const domain = extractDomain({ url });
       expect(domain).toEqual('app.chatwoot.com');
     });

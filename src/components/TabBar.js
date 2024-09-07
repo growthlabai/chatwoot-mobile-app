@@ -34,20 +34,20 @@ const NotificationStack = () => (
 const renderTabIcon = (route, focused, color, size) => {
   let iconName = 'home';
   switch (route.name) {
-    case 'Conversations':
+    case 'Conversas':
       iconName = focused ? 'home' : 'home-outline';
       break;
-    case 'Notifications':
+    case 'Notificações':
       iconName = focused ? 'notifications' : 'notifications-outline';
       break;
-    case 'Settings':
+    case 'Definições':
       iconName = focused ? 'settings' : 'settings-outline';
       break;
     default:
       iconName = focused ? 'home' : 'home-outline';
       break;
   }
-  return <Icon icon={iconName} color={focused ? '#1F93FF' : '#293F51'} />;
+  return <Icon icon={iconName} color={focused ? '#660099' : '#293F51'} />;
 };
 
 const TabStack = () => {
@@ -64,7 +64,7 @@ const TabStack = () => {
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarIcon: ({ focused, color, size }) => renderTabIcon(route, focused, color, size),
-        tabBarActiveTintColor: '#1F93FF',
+        tabBarActiveTintColor: '#660099',
         tabBarInactiveTintColor: '#293F51',
         tabBarStyle: {
           paddingTop: 2,
@@ -84,13 +84,13 @@ const TabStack = () => {
           alignSelf: undefined,
         },
       })}>
-      <Tab.Screen name="Conversations" component={HomeStack} />
+      <Tab.Screen name="Conversas" component={HomeStack} />
       <Tab.Screen
-        name="Notifications"
+        name="Notificações"
         component={NotificationStack}
         options={{ tabBarBadge: tabBarBadge > 0 ? tabBarBadge : null }}
       />
-      <Tab.Screen name="Settings" component={SettingsStack} />
+      <Tab.Screen name="Definições" component={SettingsStack} />
     </Tab.Navigator>
   );
 };

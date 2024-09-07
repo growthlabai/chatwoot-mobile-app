@@ -87,7 +87,7 @@ const ConversationInboxFilter = ({ colors, activeValue, hasLeftIcon, items, onCh
                 </View>
               )}
               <Text sm medium color={colors.text}>
-                {item.name === 'All' ? 'All Inboxes' : item.name}
+                {item.name === 'All' ? 'Todos' : item.name}
               </Text>
             </View>
             <View>

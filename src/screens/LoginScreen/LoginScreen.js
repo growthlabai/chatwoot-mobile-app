@@ -125,11 +125,11 @@ const LoginScreenComponent = ({ navigation }) => {
           <Text lg medium color={colors.textDark} style={styles.titleText}>
             {i18n.t('LOGIN.TITLE')}
           </Text>
-          {baseUrl ? (
+          {/* {baseUrl ? (
             <Text sm color={colors.textLight} style={styles.subTitleText}>
               {i18n.t('LOGIN.DESCRIPTION', { baseUrl })}
             </Text>
-          ) : null}
+          ) : null} */}
         </View>
 
         <View style={styles.contentView}>
@@ -210,15 +210,15 @@ const LoginScreenComponent = ({ navigation }) => {
                       {i18n.t('LOGIN.CREATE_ACCOUNT')}
                     </Text>
                   </TouchableOpacity>
-                  <Text color={colors.textLight}>{'   |   '}</Text>
+                  {/* <Text color={colors.textLight}>{'   |   '}</Text> */}
                 </>
               )}
 
-              <TouchableOpacity onPress={() => navigate('ConfigureURL')}>
+              {/* <TouchableOpacity onPress={() => navigate('ConfigureURL')}>
                 <Text xs medium color={colors.textLight}>
                   {i18n.t('LOGIN.CHANGE_URL')}
                 </Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
             <View style={styles.accountView}>
               <TouchableOpacity onPress={toggleChangeLanguageModal}>
@@ -227,7 +227,7 @@ const LoginScreenComponent = ({ navigation }) => {
                 </Text>
               </TouchableOpacity>
             </View>
-            <BottomSheetModal
+            {/* <BottomSheetModal
               bottomSheetModalRef={changeLanguageModal}
               initialSnapPoints={changeLanguageModalModalSnapPoints}
               showHeader
@@ -240,7 +240,7 @@ const LoginScreenComponent = ({ navigation }) => {
                   onPress={onChangeLanguage}
                 />
               }
-            />
+            /> */}
           </View>
         </View>
       </ScrollView>

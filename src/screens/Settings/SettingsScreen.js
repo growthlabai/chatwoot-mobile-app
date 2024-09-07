@@ -265,7 +265,7 @@ const SettingsScreen = () => {
             }
           />
         </View>
-        <View style={styles.separatorView}>
+        {/* <View style={styles.separatorView}>
           <View style={styles.separator}>
             <Text bold sm color={colors.textDark}>
               {i18n.t('SETTINGS.SUPPORT')}
@@ -291,14 +291,14 @@ const SettingsScreen = () => {
               />
             ))}
           </View>
-        </View>
+        </View> */}
         <View style={styles.separatorView}>
           <View style={styles.aboutView}>
             <Image style={styles.aboutImage} source={images.appLogo} />
           </View>
           <View style={styles.appDescriptionView}>
             <Text color={colors.textLight} xs medium style={styles.appDescriptionText}>
-              {`Version ${packageFile.version}`}
+              {`Versão ${packageFile.version}`}
             </Text>
           </View>
         </View>
@@ -313,7 +313,7 @@ const SettingsScreen = () => {
         {!!Config.CHATWOOT_WEBSITE_TOKEN && !!Config.CHATWOOT_BASE_URL && !!showWidget && (
           <ChatWootWidget
             websiteToken={Config.CHATWOOT_WEBSITE_TOKEN}
-            locale="en"
+            locale="pt_BR"
             baseUrl={Config.CHATWOOT_BASE_URL}
             closeModal={() => toggleWidget(false)}
             isModalVisible={showWidget}

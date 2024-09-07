@@ -9,10 +9,10 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Conversation',
       primary_actor: { id: 14428 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(
-      'https://app.chatwoot.com/app/accounts/1/conversations/14428/14902/Conversation',
+      'https://app.growthlab.com.br/app/accounts/1/conversations/14428/14902/Conversation',
     );
   });
 
@@ -24,10 +24,10 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Conversation',
       primary_actor: { id: 2684 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(
-      'https://app.chatwoot.com/app/accounts/1/conversations/2684/3104/Conversation',
+      'https://app.growthlab.com.br/app/accounts/1/conversations/2684/3104/Conversation',
     );
   });
 
@@ -39,10 +39,10 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Message',
       primary_actor: { conversation_id: 14429, id: 58731 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(
-      'https://app.chatwoot.com/app/accounts/1/conversations/14429/58731/Message',
+      'https://app.growthlab.com.br/app/accounts/1/conversations/14429/58731/Message',
     );
   });
 
@@ -54,10 +54,10 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Message',
       primary_actor: { conversation_id: 14428, id: 58725 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(
-      'https://app.chatwoot.com/app/accounts/1/conversations/14428/58725/Message',
+      'https://app.growthlab.com.br/app/accounts/1/conversations/14428/58725/Message',
     );
   });
 
@@ -69,10 +69,10 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Message',
       primary_actor: { conversation_id: 14427, id: 58712 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(
-      'https://app.chatwoot.com/app/accounts/1/conversations/14427/58712/Message',
+      'https://app.growthlab.com.br/app/accounts/1/conversations/14427/58712/Message',
     );
   });
 
@@ -84,7 +84,7 @@ describe('findConversationLinkFromPush', () => {
       primary_actor_type: 'Message',
       primary_actor: { conversation_id: 14427, id: 58712 },
     };
-    const installationUrl = 'https://app.chatwoot.com';
+    const installationUrl = 'https://app.growthlab.com.br';
     const result = findConversationLinkFromPush({ notification, installationUrl });
     expect(result).toBe(undefined);
   });
