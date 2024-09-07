@@ -27,7 +27,7 @@ export const CONVERSATION_STATUSES = [
   },
   {
     key: 'snoozed',
-    name: 'Snoozed',
+    name: 'Silenciadas',
   },
   {
     key: 'all',
